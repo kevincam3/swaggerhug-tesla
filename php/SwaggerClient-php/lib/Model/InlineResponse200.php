@@ -68,7 +68,7 @@ class InlineResponse200 implements ArrayAccess
     protected static $swaggerTypes = [
         'color' => 'string',
         'display_name' => 'string',
-        'vehicle_id' => 'string',
+        'vehicle_id' => 'float',
         'vin' => 'string'
     ];
 
@@ -216,7 +216,7 @@ class InlineResponse200 implements ArrayAccess
 
     /**
      * Gets vehicle_id
-     * @return string
+     * @return float
      */
     public function getVehicleId()
     {
@@ -225,7 +225,7 @@ class InlineResponse200 implements ArrayAccess
 
     /**
      * Sets vehicle_id
-     * @param string $vehicle_id
+     * @param float $vehicle_id
      * @return $this
      */
     public function setVehicleId($vehicle_id)

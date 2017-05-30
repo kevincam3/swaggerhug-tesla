@@ -74,7 +74,7 @@ All URIs are relative to *https://virtserver.swaggerhub.com/kevincam3/Tesla-Mode
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*DefaultApi* | [**vehicleGet**](docs/Api/DefaultApi.md#vehicleget) | **GET** /vehicle | 
+*DefaultApi* | [**vehicleGet**](docs/Api/DefaultApi.md#vehicleget) | **GET** /vehicle | Details about owned vehicle
 
 
 ## Documentation For Models

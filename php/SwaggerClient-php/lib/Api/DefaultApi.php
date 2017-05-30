@@ -104,7 +104,7 @@ class DefaultApi
     /**
      * Operation vehicleGet
      *
-     * 
+     * Details about owned vehicle
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @return \Swagger\Client\Model\InlineResponse200
@@ -118,7 +118,7 @@ class DefaultApi
     /**
      * Operation vehicleGetWithHttpInfo
      *
-     * 
+     * Details about owned vehicle
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @return array of \Swagger\Client\Model\InlineResponse200, HTTP status code, HTTP response headers (array of strings)

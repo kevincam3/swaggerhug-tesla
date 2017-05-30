@@ -4,15 +4,15 @@ All URIs are relative to *https://virtserver.swaggerhub.com/kevincam3/Tesla-Mode
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**vehicleGet**](DefaultApi.md#vehicleGet) | **GET** /vehicle | 
+[**vehicleGet**](DefaultApi.md#vehicleGet) | **GET** /vehicle | Details about owned vehicle
 
 
 # **vehicleGet**
 > \Swagger\Client\Model\InlineResponse200 vehicleGet()
 
-
-
 Details about owned vehicle
+
+Get the details about the vehicle
 
 ### Example
 ```php
