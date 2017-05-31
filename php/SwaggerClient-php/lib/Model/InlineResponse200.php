@@ -157,6 +157,18 @@ class InlineResponse200 implements ArrayAccess
     public function listInvalidProperties()
     {
         $invalid_properties = [];
+        if ($this->container['color'] === null) {
+            $invalid_properties[] = "'color' can't be null";
+        }
+        if ($this->container['display_name'] === null) {
+            $invalid_properties[] = "'display_name' can't be null";
+        }
+        if ($this->container['vehicle_id'] === null) {
+            $invalid_properties[] = "'vehicle_id' can't be null";
+        }
+        if ($this->container['vin'] === null) {
+            $invalid_properties[] = "'vin' can't be null";
+        }
         return $invalid_properties;
     }
 
@@ -168,6 +180,18 @@ class InlineResponse200 implements ArrayAccess
      */
     public function valid()
     {
+        if ($this->container['color'] === null) {
+            return false;
+        }
+        if ($this->container['display_name'] === null) {
+            return false;
+        }
+        if ($this->container['vehicle_id'] === null) {
+            return false;
+        }
+        if ($this->container['vin'] === null) {
+            return false;
+        }
         return true;
     }
 
